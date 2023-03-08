@@ -1,7 +1,10 @@
 # Create EC2 Instance 
+## Provider -- AWS 
 provider "aws" {
 region = "us-east-1"
-access_key = "AKIA3LESVXXV6S6BFB4R"
-secret_key = "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"
+access_key = var.access_key
+secret_key = var.secret_key
 }
+
+## Create EC2
 
