@@ -21,6 +21,6 @@ variable "region" {
 }
 
 variable "availability_zones" {
-
+  
   description = "zone"
 }
